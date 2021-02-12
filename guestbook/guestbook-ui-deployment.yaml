@@ -17,4 +17,4 @@ spec:
       - image: public.ecr.aws/l5u2p9w3/my-repo
         name: guestbook-ui
         ports:
-        - containerPort: 9002
+        - containerPort: 8080
