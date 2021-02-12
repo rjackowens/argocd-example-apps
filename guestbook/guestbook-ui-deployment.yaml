@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: mcr.microsoft.com/azuredocs/aci-helloworld
+      - image: hub.docker.com/r/rjackowens/resume-website
         name: guestbook-ui
         ports:
         - containerPort: 9002
